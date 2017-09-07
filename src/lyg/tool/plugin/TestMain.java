@@ -7,7 +7,6 @@ public class TestMain {
 
 public static void main(String[] args) throws Exception {
         
-        
         PluginManager manager = new PluginManager();
         
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
