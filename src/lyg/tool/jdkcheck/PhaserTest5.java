@@ -11,7 +11,7 @@ public class PhaserTest5 {
 	public static void main(String[] args) {
         String name = "明刚红丽黑白";
         Phaser phaser = new SubPhaser(name.length());
-        List<Thread> tourismThread = new ArrayList<>();
+        List<Thread> tourismThread = new ArrayList<Thread>();
         for (char ch : name.toCharArray()){
             tourismThread.add(new Thread(new TourismRunnable(phaser), "小" + ch));
         }
