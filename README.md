@@ -1,5 +1,7 @@
-# 日常重点记录
+# 框架使用
+配置管理：Apollo、diamond、disconf
 
+# 重要资源
 
 基本概念：https://my.oschina.net/hosee/blog/597934
 
