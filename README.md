@@ -24,3 +24,5 @@ OOM分析：google perftools + btrace 或 dump + MAT（http://jm.taobao.org/2011
 4大Java OSGi 框架：Knopflerfish, Apache Felix, Equinox, Spring DM
 
 宜信（http://college.creditease.cn）技术研发中心开源支撑智能化运维的三大利器：   UAVStack,Wormhole,DBus（http://www.sohu.com/a/191153441_115128）
+
+JSON-RPC和restful讨论：https://www.zhihu.com/question/28570307
