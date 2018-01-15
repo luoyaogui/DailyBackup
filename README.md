@@ -27,3 +27,17 @@ OOM分析：google perftools + btrace 或 dump + MAT（http://jm.taobao.org/2011
 宜信（http://college.creditease.cn）技术研发中心开源支撑智能化运维的三大利器：   UAVStack,Wormhole,DBus（http://www.sohu.com/a/191153441_115128）
 
 JSON-RPC和restful讨论：https://www.zhihu.com/question/28570307
+
+
+微服务架构中，众多服务将其资产和功能都通过API暴露出
+来，同时也扩大了系统的被攻击面。因此一个零信任——
+“永不信任，始终验证”的安全架构势在必行。然而，由于
+服务代码复杂性的增加以及在多语言环境中缺少库和语言
+的支持，服务之间的安全控制往往会被忽略。为了解决这
+个复杂性，我们已经看到将安全性委托给进程外Sidecar的
+做法，Sidecar是一个独立的进程或一个容器，它与每个服
+务一起部署和调度，并共享相同的执行上下文、主机和身
+份。Sidecar实现了安全功能，如对服务间的通信作透明加
+密、TLS终止，以及对调用方服务或最终用户的鉴权机制。在
+实现自己的用于端点安全的SIDECAR之前，我们推荐你先
+研究一下Istio、linkerd或者Envoy。
