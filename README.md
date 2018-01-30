@@ -29,6 +29,32 @@ OOM分析：google perftools + btrace 或 dump + MAT（http://jm.taobao.org/2011
 JSON-RPC和restful讨论：https://www.zhihu.com/question/28570307
 
 
+# Elasticsearch
+《Elasticsearch技术解析与实战》
+	包含Elasticsearch 5最新功能，凝聚了作者多年开发经验，分布式大数据全文搜索与数据挖掘必备工具。
+
+
+《大数据搜索与日志挖掘及可视化方案——ELK Stack:Elasticsearch、Logstash、Kibana》(第二版)
+
+　　对大数据的搜索与挖掘，在当今的“互联网+” 时代是很有必要的。
+
+
+《大数据搜索 与日志挖掘及可视化方案--ELK Stack Elasticsearch Logstash Kibana(第2版)》
+	提出 的分布式大数据搜索与日志挖掘及可视化方案是基于 ELK Stack而提出的，它能有效应对海量大数据所带 来的分布式存储与处理、全文检索、日志挖掘、可视 化等问题。
+	构建在全文检索开源软件Lucene之上的 Elasticsearch，不仅能对海量规模的数据完成分布 式索引与检索，还能提供数据聚合分析。
+	据国际** 的数据库产品评测机构DBEngines的统计，在2016 年1月，Elasticsearch已超过Solr等，成为排名第 一的搜索引擎类应用;
+	Logstash能有效处理来源于各 种数据源的日志信息;Kibana能得出可视化分析结果 。了解基于ELK Stack的大数据搜索与日志挖掘及可 视化方案，掌握Elasticsearch、Logstash、Kibana 的基本使用方法和技巧，很有必要。
+
+《深入理解ElasticSearch》
+　　欢迎来到ElasticSearch的世界。通过阅读本书，我们将带你接触与ElasticSearch紧密相关的各种话题。本书会从介绍Apache Lucene及ElasticSearch的基本概念开始。
+	即使读者熟悉这些知识，简略的介绍也是很有必要的，掌握背景知识对于全面理解集群构建、索引文档、搜索这些操作背后到底发生了什么至关重要。
+
+
+《Elasticsearch服务器开发》
+	本书这一版针对Elasticsearch的最新版本更新了内容，增加了第1版中遗漏的重要内容。本书首先介绍如何启动和运行Elasticsearch、Elasticsearch的基本概念，以及如何以最基本的方式索引和搜索数据。
+	接下来，本书讨论了Querydsl查询语言，通过它可以创建复杂的查询并过滤返回的结果。此外，本书还展示了如何使用切面技术(faceting)基于查询结果来计算汇总数据，如何使用新引进的聚合框架，如何使用Elasticsearch的空间搜索和预搜索。
+	最后，这本书将阐释Elasticsearch的管理API，如分片安置控制和集群处理等功能。不管你是全文检索和Elasticsearch的初学者，还是使用过Elasticsearch，你都能从本书中有所收获。
+
 微服务架构中，众多服务将其资产和功能都通过API暴露出
 来，同时也扩大了系统的被攻击面。因此一个零信任——
 “永不信任，始终验证”的安全架构势在必行。然而，由于
