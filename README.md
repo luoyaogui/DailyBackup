@@ -29,6 +29,9 @@ OOM分析：google perftools + btrace 或 dump + MAT（http://jm.taobao.org/2011
 JSON-RPC和restful讨论：https://www.zhihu.com/question/28570307
 
 
+# 网络基本功系列：细说网络那些事儿
+https://community.emc.com/thread/197851
+
 # Elasticsearch
 《Elasticsearch技术解析与实战》
 	包含Elasticsearch 5最新功能，凝聚了作者多年开发经验，分布式大数据全文搜索与数据挖掘必备工具。
