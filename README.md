@@ -1,3 +1,8 @@
+# JAVA_HOME
+JAVA_HOME=C:\Program Files\Java\jdk1.8.0_161
+Path=~;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
+CLASSPATH=.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar
+
 # 框架使用  jjxiaoluo@yeah.net
 配置管理：Apollo、diamond、disconf
 
