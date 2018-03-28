@@ -8,6 +8,7 @@ https://about.gitlab.com/installation/
 http://www.900ppt.com/pptmoban/shangyejihuashuppt/
 https://www.zhimei360.com/bp/
 http://www.trjcn.com/zt/business_plan.html?trackid=ads:baidu1:1s:pc11590
+http://www.zhuanzhi.ai
 
 # 框架使用  jjxiaoluo@yeah.net
 配置管理：Apollo、diamond、disconf
