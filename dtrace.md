@@ -16,7 +16,9 @@
   ```
     github地址：GitHub - dianping/cat: Central Application Tracking这个是大众点评开源出来的，实现的功能也还是蛮丰富的，国内也有一些公司在用了。不过他实现跟踪的手段，是要在代码里硬编码写一些“埋点”，也就是侵入式的。这样做有利有弊，好处是可以在自己需要的地方加埋点，比较有针对性；坏处是必须改动现有系统，很多开发团队不愿意。
   ```
-- Xhprof/Xhgui这两个工具的组合，是针对PHP应用提供APM能力的工具，也是非侵入式的。Xhprof github地址：GitHub - preinheimer/xhprof: XHGUI is a GUI for the XHProf PHP extension, using a database backend, and pretty graphs to make it easy to use and interpret.Xhgui github地址：GitHub - perftools/xhgui: A graphical interface for XHProf data built on MongoDB我对PHP不熟，不过网上介绍这两个工具的资料还是蛮多的。
+- Xhprof/Xhgui这两个工具的组合，是针对PHP应用提供APM能力的工具，也是非侵入式的。
+  ```
+    Xhprof github地址：GitHub - preinheimer/xhprof: XHGUI is a GUI for the XHProf PHP extension, using a database backend, and pretty graphs to make it easy to use and interpret.Xhgui github地址：GitHub - perftools/xhgui: A graphical interface for XHProf data built on MongoDB我对PHP不熟，不过网上介绍这两个工具的资料还是蛮多的。
   ```
 
 前面三个工具里面，我推荐的顺序依次是Pinpoint—》Zipkin—》CAT。原因很简单，就是这三个工具对于程序源代码和配置文件的侵入性，是依次递增的：Pinpoint：基本不用修改源码和配置文件，只要在启动命令里指定javaagent参数即可，对于运维人员来讲最为方便；Zipkin：需要对Spring、web.xml之类的配置文件做修改，相对麻烦一些；CAT：因为需要修改源码设置埋点，因此基本不太可能由运维人员单独完成，而必须由开发人员的深度参与了，而很多开发人员是比较抗拒在代码中加入这些东西滴；相对于传统的监控软件（Zabbix之流）的区别，APM跟关注在对于系统内部执行、系统间调用的性能瓶颈分析，这样更有利于定位到问题的具体原因，而不仅仅像传统监控软件一样只提供一些零散的监控点和指标，就算告警了也不知道问题是出在哪里。
