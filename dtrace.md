@@ -1,7 +1,6 @@
 ## 分布式跟踪
-  ```
-    现代APM体系，基本都是参考Google的Dapper（大规模分布式系统的跟踪系统）的体系来做的。通过跟踪请求的处理过程，来对应用系统在前后端处理、服务端调用的性能消耗进行跟踪，关于Dapper的介绍可以看这个链接：Dapper，大规模分布式系统的跟踪系统 by bigbully我所知道相对有名的APM系统主要有以下几个：
-  ```
+> 现代APM体系，基本都是参考Google的Dapper（大规模分布式系统的跟踪系统）的体系来做的。通过跟踪请求的处理过程，来对应用系统在前后端处理、服务端调用的性能消耗进行跟踪，关于Dapper的介绍可以看这个链接：Dapper，大规模分布式系统的跟踪系统 by bigbully我所知道相对有名的APM系统主要有以下几个：
+
   
 - **Pinpoint**
   ```
@@ -24,4 +23,4 @@
     Xhprof github地址：GitHub - preinheimer/xhprof: XHGUI is a GUI for the XHProf PHP extension, using a database backend, and pretty graphs to make it easy to use and interpret.Xhgui github地址：GitHub - perftools/xhgui: A graphical interface for XHProf data built on MongoDB我对PHP不熟，不过网上介绍这两个工具的资料还是蛮多的。
   ```
 
-> 前面三个工具里面，我推荐的顺序依次是Pinpoint—》Zipkin—》CAT。原因很简单，就是这三个工具对于程序源代码和配置文件的侵入性，是依次递增的：Pinpoint：基本不用修改源码和配置文件，只要在启动命令里指定javaagent参数即可，对于运维人员来讲最为方便；Zipkin：需要对Spring、web.xml之类的配置文件做修改，相对麻烦一些；CAT：因为需要修改源码设置埋点，因此基本不太可能由运维人员单独完成，而必须由开发人员的深度参与了，而很多开发人员是比较抗拒在代码中加入这些东西滴；相对于传统的监控软件（Zabbix之流）的区别，APM跟关注在对于系统内部执行、系统间调用的性能瓶颈分析，这样更有利于定位到问题的具体原因，而不仅仅像传统监控软件一样只提供一些零散的监控点和指标，就算告警了也不知道问题是出在哪里。
+  > 前面三个工具里面，我推荐的顺序依次是Pinpoint—》Zipkin—》CAT。原因很简单，就是这三个工具对于程序源代码和配置文件的侵入性，是依次递增的：Pinpoint：基本不用修改源码和配置文件，只要在启动命令里指定javaagent参数即可，对于运维人员来讲最为方便；Zipkin：需要对Spring、web.xml之类的配置文件做修改，相对麻烦一些；CAT：因为需要修改源码设置埋点，因此基本不太可能由运维人员单独完成，而必须由开发人员的深度参与了，而很多开发人员是比较抗拒在代码中加入这些东西滴；相对于传统的监控软件（Zabbix之流）的区别，APM跟关注在对于系统内部执行、系统间调用的性能瓶颈分析，这样更有利于定位到问题的具体原因，而不仅仅像传统监控软件一样只提供一些零散的监控点和指标，就算告警了也不知道问题是出在哪里。
