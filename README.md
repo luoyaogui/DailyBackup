@@ -14,6 +14,8 @@ http://www.zhuanzhi.ai
 - JMC（https://www.cnblogs.com/aurain/p/6178671.html、http://hg.openjdk.java.net/jmc）
 
 # 框架使用  jjxiaoluo@yeah.net
+BI0|NIO|AIO|TIO：https://juejin.im/entry/5940fe3ea0bb9f006b77dd14
+
 配置管理：Apollo、diamond、disconf
 
 调用链：Zipkin、Pinpoint、CAT
