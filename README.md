@@ -32,7 +32,7 @@ sigar
 joda-time: http://joda-time.sourceforge.net/、https://blog.csdn.net/weixin_39450045/article/details/78890539
 
 数据同步：https://www.cnblogs.com/davidwang456/articles/9143327.html、http://baijiahao.baidu.com/s?id=1574287087256569&wfr=spider&for=pc
-
+mmap：https://blog.csdn.net/zjf280441589/article/details/54406665
 
 # 重要资源
 
