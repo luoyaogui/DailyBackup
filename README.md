@@ -33,6 +33,7 @@ joda-time: http://joda-time.sourceforge.net/、https://blog.csdn.net/weixin_3945
 
 数据同步：https://www.cnblogs.com/davidwang456/articles/9143327.html、http://baijiahao.baidu.com/s?id=1574287087256569&wfr=spider&for=pc
 mmap：https://blog.csdn.net/zjf280441589/article/details/54406665
+校验算法：https://blog.csdn.net/prsniper/article/details/51752064
 
 # 重要资源
 
