@@ -37,6 +37,8 @@ mmap：https://blog.csdn.net/zjf280441589/article/details/54406665
 
 校验算法：https://blog.csdn.net/prsniper/article/details/51752064
 
+数据归档：http://baijiahao.baidu.com/s?id=1598803347926956969&wfr=spider&for=pc
+
 # 重要资源
 
 基本概念：https://my.oschina.net/hosee/blog/597934
