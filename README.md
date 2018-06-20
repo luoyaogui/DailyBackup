@@ -38,6 +38,7 @@ mmap：https://blog.csdn.net/zjf280441589/article/details/54406665
 校验算法：https://blog.csdn.net/prsniper/article/details/51752064
 
 数据归档：http://baijiahao.baidu.com/s?id=1598803347926956969&wfr=spider&for=pc
+数据库大会：http://bss.csdn.net/m/topic/sdcc_invite
 
 # 重要资源
 
