@@ -39,6 +39,7 @@ mmap：https://blog.csdn.net/zjf280441589/article/details/54406665
 
 数据归档：http://baijiahao.baidu.com/s?id=1598803347926956969&wfr=spider&for=pc
 数据库大会：http://bss.csdn.net/m/topic/sdcc_invite
+mysql千万级查询优化：https://www.cnblogs.com/binbinyouni/p/6070715.html、https://blog.csdn.net/chenchaoxing/article/details/25214397、https://blog.csdn.net/u011921996/article/details/77453748、https://www.cnblogs.com/hxphp/p/7651365.html、https://www.cnblogs.com/zengkefu/p/5667012.html
 
 # 重要资源
 
