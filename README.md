@@ -46,6 +46,8 @@ mysql千万级查询优化：https://www.cnblogs.com/binbinyouni/p/6070715.html�
 # 重要资源
 设计：http://hao.shejidaren.com/book.html
 
+数据存储方案：http://bigdata.it168.com/a2017/0217/3099/000003099574.shtml
+
 基本概念：https://my.oschina.net/hosee/blog/597934
 
 分布式事务：http://jm.taobao.org/2017/09/01/post-20170901/
