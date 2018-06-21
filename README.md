@@ -46,7 +46,7 @@ mysql千万级查询优化：https://www.cnblogs.com/binbinyouni/p/6070715.html�
 # 重要资源
 设计：http://hao.shejidaren.com/book.html
 
-数据存储方案：http://bigdata.it168.com/a2017/0217/3099/000003099574.shtml
+数据存储方案：http://bigdata.it168.com/a2017/0217/3099/000003099574.shtml、http://baijiahao.baidu.com/s?id=1582114919551255162&wfr=spider&for=pc
 
 基本概念：https://my.oschina.net/hosee/blog/597934
 
