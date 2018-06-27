@@ -54,6 +54,8 @@ mysql千万级查询优化：https://www.cnblogs.com/binbinyouni/p/6070715.html�
 
 分布式事务：http://jm.taobao.org/2017/09/01/post-20170901/
 
+ServiceComb：https://blog.csdn.net/FL63Zv9Zou86950w/article/details/78393439
+
 linux命令大全：http://man.linuxde.net/strace
 
 OOM分析：google perftools + btrace 或 dump + MAT（http://jm.taobao.org/2011/01/13/684/， MAT/Yourkit/JProfiler/TPTP）
