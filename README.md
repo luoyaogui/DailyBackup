@@ -13,7 +13,7 @@ http://www.zhuanzhi.ai
 # 分析工具
 - JMC（https://www.cnblogs.com/aurain/p/6178671.html、http://hg.openjdk.java.net/jmc）
 - Vim（https://www.cnblogs.com/yangjig/p/6014198.html）
-- GC调优（https://blog.csdn.net/jiasanshou/article/details/24909589）
+- GC调优（https://blog.csdn.net/jiasanshou/article/details/24909589、https://blog.csdn.net/u013851082/article/details/53516777、http://www.oracle.com/technetwork/java/javase/gc-tuning-6-140523.html）
 
 # 框架使用  jjxiaoluo@yeah.net
 BI0|NIO|AIO|TIO：https://juejin.im/entry/5940fe3ea0bb9f006b77dd14
