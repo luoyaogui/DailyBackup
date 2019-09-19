@@ -78,8 +78,8 @@ https://community.emc.com/thread/197851
 
 
 # 权限系统
-https://github.com/a466350665/smart
-https://github.com/zhaojun1998/Shiro-Action
-https://github.com/wuyouzhuguli/FEBS-Shiro
-https://github.com/LiHaodong888/pre
-https://github.com/elunez/eladmin
+https://github.com/a466350665/smart  
+https://github.com/zhaojun1998/Shiro-Action  
+https://github.com/wuyouzhuguli/FEBS-Shiro  
+https://github.com/LiHaodong888/pre  
+https://github.com/elunez/eladmin  
