@@ -75,3 +75,11 @@ JSON-RPC和restful讨论：https://www.zhihu.com/question/28570307
 
 # 网络基本功系列：细说网络那些事儿
 https://community.emc.com/thread/197851
+
+
+# 权限系统
+https://github.com/a466350665/smart
+https://github.com/zhaojun1998/Shiro-Action
+https://github.com/wuyouzhuguli/FEBS-Shiro
+https://github.com/LiHaodong888/pre
+https://github.com/elunez/eladmin
