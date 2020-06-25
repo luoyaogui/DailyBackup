@@ -10,6 +10,9 @@ https://www.zhimei360.com/bp/
 http://www.trjcn.com/zt/business_plan.html?trackid=ads:baidu1:1s:pc11590
 http://www.zhuanzhi.ai
 
+# Lambda表达式-官方文档
+http://docs.oracle.com/javase/specs/jls/se8/html/jls-15.html#jls-15.27
+
 # 分析工具
 - JMC（https://www.cnblogs.com/aurain/p/6178671.html、http://hg.openjdk.java.net/jmc）
 - Vim（https://www.cnblogs.com/yangjig/p/6014198.html）
