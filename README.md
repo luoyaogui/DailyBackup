@@ -18,6 +18,7 @@ git status -s 或 git status --short 你将得到一种格式更为紧凑的输�
 git diff 要查看尚未暂存的文件更新了哪些部分
 git diff --staged 若要查看已暂存的将要添加到下次提交里的内容
 git diff --cached 查看已经暂存起来的变化
+git commit  现在的暂存区已经准备就绪，可以提交了
 注：.gitignore 的文件，列出要忽略的文件的模式
 
 # Lambda表达式-官方文档
