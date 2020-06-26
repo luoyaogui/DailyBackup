@@ -10,7 +10,14 @@ https://www.zhimei360.com/bp/
 http://www.trjcn.com/zt/business_plan.html?trackid=ads:baidu1:1s:pc11590
 http://www.zhuanzhi.ai
 
-# GIT -- https://git-scm.com/ | https://git-scm.com/book/zh/v2  
+# MAVEN（http://maven.apache.org/index.html）  
+mvn dependency:tree  
+mvn clean package -Dmaven.test.skip=true  
+mvn assembly:assembly  
+
+# GIT（https://git-scm.com/、https://git-scm.com/book/zh/v2）  
+eclipse安装git插件：http://download.eclipse.org/egit/updates  
+
 git clone https://github.com/libgit2/libgit2 mylibgit(可选-修改名称)  
 git status 命令查看哪些文件处于什么状态（M-修改   A-新增  ??-未跟踪）  
 git add README  要跟踪 README文件  
