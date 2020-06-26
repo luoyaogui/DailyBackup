@@ -36,7 +36,9 @@ git checkout -- CONTRIBUTING.md  撤销对文件的修改
 
 git remote -v  查看你已经配置的远程仓库服务器，-v会显示需要读写远程仓库使用的Git保存的简写与其对应的 URL
 git remote add pb https://github.com/paulboone/ticgit  格式"git remote add <shortname> <url>"添加一个新的远程 Git 仓库
-git fetch pb  从远程仓库中获得数据
+git fetch pb  从中拉取所有你还没有的数据。 执行完成后，你将会拥有那个远程仓库中所有分支的引用，可以随时合并或查看。
+git pull 通常会从最初克隆的服务器上抓取数据并自动尝试合并到当前所在的分支
+git push origin master  推送到远程仓库
 
 注：.gitignore 的文件，列出要忽略的文件的模式
 
