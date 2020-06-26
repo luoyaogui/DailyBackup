@@ -10,6 +10,16 @@ https://www.zhimei360.com/bp/
 http://www.trjcn.com/zt/business_plan.html?trackid=ads:baidu1:1s:pc11590
 http://www.zhuanzhi.ai
 
+# GIT -- https://git-scm.com/
+git clone https://github.com/libgit2/libgit2 mylibgit(可选-修改名称)
+git status 命令查看哪些文件处于什么状态（M-修改   A-新增  ??-未跟踪）
+git add README  要跟踪 README文件
+git status -s 或 git status --short 你将得到一种格式更为紧凑的输出
+git diff 要查看尚未暂存的文件更新了哪些部分
+git diff --staged 若要查看已暂存的将要添加到下次提交里的内容
+git diff --cached 查看已经暂存起来的变化
+注：.gitignore 的文件，列出要忽略的文件的模式
+
 # Lambda表达式-官方文档
 http://docs.oracle.com/javase/specs/jls/se8/html/jls-15.html#jls-15.27
 
