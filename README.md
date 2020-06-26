@@ -10,37 +10,40 @@ https://www.zhimei360.com/bp/
 http://www.trjcn.com/zt/business_plan.html?trackid=ads:baidu1:1s:pc11590
 http://www.zhuanzhi.ai
 
-# GIT -- https://git-scm.com/
-git clone https://github.com/libgit2/libgit2 mylibgit(可选-修改名称)
-git status 命令查看哪些文件处于什么状态（M-修改   A-新增  ??-未跟踪）
-git add README  要跟踪 README文件
-git status -s 或 git status --short 你将得到一种格式更为紧凑的输出
-git diff 要查看尚未暂存的文件更新了哪些部分
-git diff --staged 若要查看已暂存的将要添加到下次提交里的内容
-git diff --cached 查看已经暂存起来的变化
-git commit  现在的暂存区已经准备就绪，可以提交了
-git commit -a -m "Story 182"  -m选项--将提交信息与命令放在同一行、-a选项--会自动把所有已经跟踪过的文件暂存起来一并提交，从而跳过 git add 步骤
+# GIT -- https://git-scm.com/  
+git clone https://github.com/libgit2/libgit2 mylibgit(可选-修改名称)  
+git status 命令查看哪些文件处于什么状态（M-修改   A-新增  ??-未跟踪）  
+git add README  要跟踪 README文件  
+git status -s 或 git status --short 你将得到一种格式更为紧凑的输出  
+git diff 要查看尚未暂存的文件更新了哪些部分  
+git diff --staged 若要查看已暂存的将要添加到下次提交里的内容  
+git diff --cached 查看已经暂存起来的变化  
+git commit  现在的暂存区已经准备就绪，可以提交了  
+git commit -a -m "Story 182"  -m选项--将提交信息与命令放在同一行、-a选项--会自动把所有已经跟踪过的文件暂存起来一并提交，从而跳过 git add 步骤  
 
-rm PROJECTS.md 移除文件
-git rm --cached PROJECTS.md 记录此次移除文件， --cached选项--想把文件从 Git 仓库中删除（亦即从暂存区域移除），但仍然希望保留在当前工作目录中
-git mv file_from file_to 改名，相当于“mv file_from file_to” + “git rm file_from” + “git add file_to”
+rm PROJECTS.md 移除文件  
+git rm --cached PROJECTS.md 记录此次移除文件， --cached选项--想把文件从 Git 仓库中删除（亦即从暂存区域移除），但仍然希望保留在当前工作目录中  
+git mv file_from file_to 改名，相当于“mv file_from file_to” + “git rm file_from” + “git add file_to”  
 
-git log -p -2  查看提交历史，-p或--patch显示每次提交所引入的差异，-2只显示最近的两次提交
-git log --stat  --stat每次提交的简略统计信息
-git log --pretty=format:"%h - %an, %ar : %s"
-git log --pretty=oneline/short/full/fuller
+git log -p -2  查看提交历史，-p或--patch显示每次提交所引入的差异，-2只显示最近的两次提交  
+git log --stat  --stat每次提交的简略统计信息  
+git log --pretty=format:"%h - %an, %ar : %s"  
+git log --pretty=oneline/short/full/fuller  
 
-git commit --amend   --amend 选项的提交命令来重新提交
-git reset HEAD CONTRIBUTING.md   取消暂存
-git checkout -- CONTRIBUTING.md  撤销对文件的修改
+git commit --amend   --amend 选项的提交命令来重新提交  
+git reset HEAD CONTRIBUTING.md   取消暂存  
+git checkout -- CONTRIBUTING.md  撤销对文件的修改  
 
-git remote -v  查看你已经配置的远程仓库服务器，-v会显示需要读写远程仓库使用的Git保存的简写与其对应的 URL
-git remote add pb https://github.com/paulboone/ticgit  格式"git remote add <shortname> <url>"添加一个新的远程 Git 仓库
-git fetch pb  从中拉取所有你还没有的数据。 执行完成后，你将会拥有那个远程仓库中所有分支的引用，可以随时合并或查看。
-git pull 通常会从最初克隆的服务器上抓取数据并自动尝试合并到当前所在的分支
-git push origin master  推送到远程仓库
+git remote -v  查看你已经配置的远程仓库服务器，-v会显示需要读写远程仓库使用的Git保存的简写与其对应的 URL  
+git remote add pb https://github.com/paulboone/ticgit  格式"git remote add <shortname> <url>"添加一个新的远程 Git 仓库  
+git fetch pb  从中拉取所有你还没有的数据。 执行完成后，你将会拥有那个远程仓库中所有分支的引用，可以随时合并或查看。  
+git pull 通常会从最初克隆的服务器上抓取数据并自动尝试合并到当前所在的分支   
+git push origin master  推送到远程仓库  
+git remote show origin 查看某个远程仓库  
+git remote rename pb paul 远程仓库的重命名  
+git remote remove paul  远程仓库的移除  
 
-注：.gitignore 的文件，列出要忽略的文件的模式
+注：.gitignore 的文件，列出要忽略的文件的模式  
 
 # Lambda表达式-官方文档
 http://docs.oracle.com/javase/specs/jls/se8/html/jls-15.html#jls-15.27
