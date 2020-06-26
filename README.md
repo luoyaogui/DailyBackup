@@ -21,6 +21,23 @@ git diff --cached 查看已经暂存起来的变化
 git commit  现在的暂存区已经准备就绪，可以提交了
 git commit -a -m "Story 182"  -m选项--将提交信息与命令放在同一行、-a选项--会自动把所有已经跟踪过的文件暂存起来一并提交，从而跳过 git add 步骤
 
+rm PROJECTS.md 移除文件
+git rm --cached PROJECTS.md 记录此次移除文件， --cached选项--想把文件从 Git 仓库中删除（亦即从暂存区域移除），但仍然希望保留在当前工作目录中
+git mv file_from file_to 改名，相当于“mv file_from file_to” + “git rm file_from” + “git add file_to”
+
+git log -p -2  查看提交历史，-p或--patch显示每次提交所引入的差异，-2只显示最近的两次提交
+git log --stat  --stat每次提交的简略统计信息
+git log --pretty=format:"%h - %an, %ar : %s"
+git log --pretty=oneline/short/full/fuller
+
+git commit --amend   --amend 选项的提交命令来重新提交
+git reset HEAD CONTRIBUTING.md   取消暂存
+git checkout -- CONTRIBUTING.md  撤销对文件的修改
+
+git remote -v  查看你已经配置的远程仓库服务器，-v会显示需要读写远程仓库使用的Git保存的简写与其对应的 URL
+git remote add pb https://github.com/paulboone/ticgit  格式"git remote add <shortname> <url>"添加一个新的远程 Git 仓库
+git fetch pb  从远程仓库中获得数据
+
 注：.gitignore 的文件，列出要忽略的文件的模式
 
 # Lambda表达式-官方文档
