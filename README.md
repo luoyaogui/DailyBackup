@@ -19,6 +19,8 @@ git diff 要查看尚未暂存的文件更新了哪些部分
 git diff --staged 若要查看已暂存的将要添加到下次提交里的内容
 git diff --cached 查看已经暂存起来的变化
 git commit  现在的暂存区已经准备就绪，可以提交了
+git commit -a -m "Story 182"  -m选项--将提交信息与命令放在同一行、-a选项--会自动把所有已经跟踪过的文件暂存起来一并提交，从而跳过 git add 步骤
+
 注：.gitignore 的文件，列出要忽略的文件的模式
 
 # Lambda表达式-官方文档
